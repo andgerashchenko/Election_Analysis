@@ -27,7 +27,7 @@ The only few lines of the code will be need to modified, such as initial data fi
 
 Or if the data file has different rows layout, just index numbers will be needed to correct:
 - 'for row in reader:
-- 
+
         total_votes = total_votes + 1
     
         candidate_name = row[2]
