@@ -24,6 +24,7 @@ Purpose of the project is to complete election audit for Local Congressional Ele
 The script, used for election audit, had been written as unuiversal tool, wich can be utilized for almost any election data.
 The only few lines of the code will be need to modified, such as initial data file path:
 - 'file_to_load = os.path.join("Resources", "election_results.csv")'.
+
 Or if the data file has different rows layout, just index numbers will be needed to correct:
 - 'for row in reader:
     total_votes = total_votes + 1
